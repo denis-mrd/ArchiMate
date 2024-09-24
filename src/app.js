@@ -156,8 +156,6 @@ $(document).ready(function () {
         value: language.code,
         text: language.name
       }));
-
-      console.log(`Langue: ${language.name}`)
       var sl="";
       $.each(language.contributors,function(index,contrib){
         sl+=`<a target="_blank" href="${contrib.url}">${contrib.translator}</a>&nbsp;`
